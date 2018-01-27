@@ -1,0 +1,16 @@
+{
+    // Prioritized list of exchanges where to buy your top x - y
+    "exchanges" : 
+        [
+            "Poloniex",
+            "BitTrex",
+            "Binance",
+            "Kucoin"
+        ],
+    // Top x - y cryptos to buy
+    "top" : 
+        [
+            101,
+            105
+        ]
+}
