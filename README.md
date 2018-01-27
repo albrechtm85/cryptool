@@ -8,7 +8,9 @@ Preconditions:
     - Git (optional), Node and npm are installed
 
 1. Create the directory where cryptool will be installed
-2. Use your CLI: Run command 'npm install' 
+2. Use your CLI: 
+3. Run command 'git clone https://github.com/albrechtm85/cryptool.git'
+4. Run command 'npm install' 
 
 ### Run
 
