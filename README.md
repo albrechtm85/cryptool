@@ -24,3 +24,7 @@ Use your CLI: Run command 'node tool.js'
 ### TODO
 
 (Coming soon)
+
+### Appreciate me
+
+BTC: 13puGJNVvE3CTeF5XP6xd8ay2cNWNiSfiv
