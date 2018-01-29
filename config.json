@@ -1,14 +1,13 @@
 {
     "exchanges" : 
         [
-            "Poloniex",
-            "BitTrex",
-            "Binance",
-            "Kucoin"
+            "Cryptopia",
+            "hitbtc",
+            "BitTrex"
         ],
     "top" : 
         [
-            101,
-            105
+            20,
+            50
         ]
 }
