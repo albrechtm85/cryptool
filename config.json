@@ -1,5 +1,4 @@
 {
-    // Prioritized list of exchanges where to buy your top x - y
     "exchanges" : 
         [
             "Poloniex",
@@ -7,7 +6,6 @@
             "Binance",
             "Kucoin"
         ],
-    // Top x - y cryptos to buy
     "top" : 
         [
             101,
