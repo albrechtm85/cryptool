@@ -72,7 +72,7 @@ Next, run the tool and the result is a list of coins and where to buy each coin,
 
 ### TODO
 
-- Make exchanges in config.json case-insensitive
+- Remove promise in response
 - (Coming soon)
 
 ### Appreciate me
