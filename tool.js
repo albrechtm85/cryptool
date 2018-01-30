@@ -39,9 +39,9 @@ async function getMarketInfo(symbol) {
 
 async function selectMarket(exchanges) {
     var preferedExchanges = config.exchanges;
-    var availableExchanges = exchanges.map((exchange) => exchange.MARKET);
+    var availableExchanges = exchanges.map((exchange) => exchange.MARKET.toLowerCase());
     for (var i = 0; i < preferedExchanges.length; i++) {
-        if (availableExchanges.includes(preferedExchanges[i])) {
+        if (availableExchanges.includes(preferedExchanges[i].toLowerCase())) {
             return preferedExchanges[i];
         }
     }
