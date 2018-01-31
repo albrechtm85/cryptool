@@ -56,8 +56,8 @@ async function run() {
         for (var i = 0; i < coinSymbols.length; i++) {
             const marketsPerCoin = await getMarketInfo(coinSymbols[i]);
             if (marketsPerCoin.Response == "Success") {
-                var exchanges = marketsPerCoin.Data.Exchanges;
-                markets.push([coinSymbols[i], selectMarket(exchanges)]);
+                var exchange = await selectMarket(marketsPerCoin.Data.Exchanges);
+                markets.push([coinSymbols[i], exchange]);
             } else {
                 markets.push([coinSymbols[i], "ERROR"]);
             }

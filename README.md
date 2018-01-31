@@ -38,41 +38,41 @@ Configure config.json as follows:
 
 Next, run the tool and the result is a list of coins and where to buy each coin, for example:
 
-    [ [ 'LSK', Promise { 'HitBTC' } ],
-    [ 'PPT', Promise { 'HitBTC' } ],
-    [ 'XRB', Promise { 'Cryptopia' } ],
-    [ 'USDT', Promise { 'BitTrex' } ],
-    [ 'OMG', Promise { 'Cryptopia' } ],
-    [ 'STEEM', Promise { 'HitBTC' } ],
-    [ 'ZEC', Promise { 'Cryptopia' } ],
-    [ 'STRAT', Promise { 'Cryptopia' } ],
-    [ 'SC', Promise { 'Cryptopia' } ],
-    [ 'BCN', Promise { 'Cryptopia' } ],
-    [ 'BNB', Promise { 'No suitable exchange found' } ],
-    [ 'XVG', Promise { 'Cryptopia' } ],
-    [ 'BTS', Promise { 'BitTrex' } ],
-    [ 'SNT', Promise { 'HitBTC' } ],
-    [ 'WTC', Promise { 'HitBTC' } ],
-    [ 'ARDR', Promise { 'HitBTC' } ],
-    [ 'ZRX', Promise { 'HitBTC' } ],
-    [ 'WAVES', Promise { 'Cryptopia' } ],
-    [ 'MKR', Promise { 'No suitable exchange found' } ],
-    [ 'REP', Promise { 'Cryptopia' } ],
-    [ 'RHOC', Promise { 'No suitable exchange found' } ],
-    [ 'KCS', Promise { 'No suitable exchange found' } ],
-    [ 'VERI', Promise { 'HitBTC' } ],
-    [ 'DOGE', Promise { 'Cryptopia' } ],
-    [ 'KMD', Promise { 'Cryptopia' } ],
-    [ 'AE', Promise { 'HitBTC' } ],
-    [ 'HSR', Promise { 'Cryptopia' } ],
-    [ 'ARK', Promise { 'Cryptopia' } ],
-    [ 'DGB', Promise { 'Cryptopia' } ],
-    [ 'GAS', Promise { 'No suitable exchange found' } ],
-    [ 'DCR', Promise { 'Cryptopia' } ] ]
+    [ [ 'BTG', 'HitBTC' ],
+    [ 'PPT', 'HitBTC' ],
+    [ 'XRB', 'Cryptopia' ],
+    [ 'USDT', 'BitTrex' ],
+    [ 'OMG', 'Cryptopia' ],
+    [ 'STEEM', 'HitBTC' ],
+    [ 'ZEC', 'Cryptopia' ],
+    [ 'STRAT', 'Cryptopia' ],
+    [ 'BNB', 'No suitable exchange found' ],
+    [ 'BCN', 'Cryptopia' ],
+    [ 'SC', 'Cryptopia' ],
+    [ 'BTS', 'BitTrex' ],
+    [ 'XVG', 'Cryptopia' ],
+    [ 'ZRX', 'HitBTC' ],
+    [ 'SNT', 'HitBTC' ],
+    [ 'WTC', 'HitBTC' ],
+    [ 'MKR', 'No suitable exchange found' ],
+    [ 'ARDR', 'HitBTC' ],
+    [ 'WAVES', 'Cryptopia' ],
+    [ 'REP', 'Cryptopia' ],
+    [ 'VERI', 'HitBTC' ],
+    [ 'KCS', 'No suitable exchange found' ],
+    [ 'RHOC', 'No suitable exchange found' ],
+    [ 'DOGE', 'Cryptopia' ],
+    [ 'DCR', 'Cryptopia' ],
+    [ 'AE', 'HitBTC' ],
+    [ 'KMD', 'Cryptopia' ],
+    [ 'HSR', 'Cryptopia' ],
+    [ 'GAS', 'No suitable exchange found' ],
+    [ 'DRGN', 'No suitable exchange found' ],
+    [ 'ARK', 'Cryptopia' ] ]
 
 ### TODO
 
-- Remove promise in response
+- Add prefered tradingpair
 - (Coming soon)
 
 ### Appreciate me
